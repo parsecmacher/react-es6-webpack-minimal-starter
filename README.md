@@ -12,8 +12,5 @@ npm install
 webpack
 ```
 
-Then navigate using a browser to `build/index.html`.
-
-The entry point `build/index.html` (which contains a `<script>` element
-to load `bundle.js`) is currently hand-built and not yet automated.
+Then navigate using a browser to `index.html`.
 
