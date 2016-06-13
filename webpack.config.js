@@ -5,6 +5,10 @@ module.exports = {
   },
   debug: true,
   devtool: 'source-map',
+  // so you can import jsx files without specifying the extensions
+  resolve: {
+    extensions: ['', '.js', '.jsx']
+  },
   module: {
     preLoaders: [
       {
